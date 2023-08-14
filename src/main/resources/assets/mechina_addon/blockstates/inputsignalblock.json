@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mechina_addon:block/inputsignalblock"
+    },
+    "facing=east": {
+      "model": "mechina_addon:block/inputsignalblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mechina_addon:block/inputsignalblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mechina_addon:block/inputsignalblock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mechina_addon:block/inputsignalblock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mechina_addon:block/inputsignalblock",
+      "x": 90
+    }
+  }
+}

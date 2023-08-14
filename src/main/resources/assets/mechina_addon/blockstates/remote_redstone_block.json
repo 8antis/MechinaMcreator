@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mechina_addon:block/remote_redstone_block"
+    },
+    "facing=east": {
+      "model": "mechina_addon:block/remote_redstone_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mechina_addon:block/remote_redstone_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mechina_addon:block/remote_redstone_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mechina_addon:block/remote_redstone_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mechina_addon:block/remote_redstone_block",
+      "x": 90
+    }
+  }
+}

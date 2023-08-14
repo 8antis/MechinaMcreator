@@ -1,0 +1,400 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 291,
+    "height": 181,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Remote Redstone controller",
+          "color": {
+            "value": -13369549,
+            "falpha": 0.0
+          },
+          "name": "Remote Redstone controller",
+          "x": 78,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "X: <BNBT:number:position_X>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "X: <BNBT:number:position_X>",
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Y: <BNBT:number:position_Y>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Y: <BNBT:number:position_Y>",
+          "x": 78,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Z: <BNBT:number:position_Z>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Z: <BNBT:number:position_Z>",
+          "x": 78,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RelayTick: ",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "RelayTick: ",
+          "x": 78,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "x10",
+          "onClick": {
+            "name": "X10Tick"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "x10",
+          "x": 171,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Reset",
+          "onClick": {
+            "name": "Reset"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Reset",
+          "x": 266,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "x100",
+          "onClick": {
+            "name": "X100"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "x100",
+          "x": 171,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "x1000",
+          "onClick": {
+            "name": "X1000"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "x1000",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "x10000",
+          "onClick": {
+            "name": "X10000"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "x10000",
+          "x": 219,
+          "y": 110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:RedstoneTick>",
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:RedstoneTick>",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ConfigSet:<BNBT:number:SettingValue>",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "ConfigSet:<BNBT:number:SettingValue>",
+          "x": 78,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Set",
+          "onClick": {
+            "name": "SetProdure"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Set",
+          "x": 277,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Start!",
+          "onClick": {
+            "name": "StartProdure"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Start!",
+          "x": 113,
+          "y": 110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "StartSignal: <BNBT:logic:StartTick>",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "StartSignal: <BNBT:logic:StartTick>",
+          "x": 78,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ready",
+          "onClick": {
+            "name": "X1Tick"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Ready",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BreakSet: <BNBT:number:Break_set>",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "BreakSet: <BNBT:number:Break_set>",
+          "x": 119,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "B1",
+          "onClick": {
+            "name": "B1"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "B1",
+          "x": 171,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "B10",
+          "onClick": {
+            "name": "B10"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "B10",
+          "x": 208,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "B100",
+          "onClick": {
+            "name": "B100"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "B100",
+          "x": 256,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "B/Reset",
+          "onClick": {
+            "name": "BReset"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "B/Reset",
+          "x": 294,
+          "y": 156
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "B/Set",
+          "onClick": {
+            "name": "BSet"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "B/Set",
+          "x": 304,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lee eun woo neun 1 Tick lee 0.1Sec Rae-Yo",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Lee eun woo neun 1 Tick lee 0.1Sec Rae-Yo",
+          "x": 78,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RedstoneSignal: <BNBT:number:Redstone_ON>",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "RedstoneSignal: <BNBT:number:Redstone_ON>",
+          "x": 78,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Relay: <BNBT:text:RelayNumberText>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Relay: <BNBT:text:RelayNumberText>",
+          "x": 78,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Always On",
+          "onClick": {
+            "name": "AlwaysOn"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Always On",
+          "x": 215,
+          "y": 156
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Always On: <BNBT:logic:AlwaysOn>",
+          "color": {
+            "value": -65281,
+            "falpha": 0.0
+          },
+          "name": "Always On: <BNBT:logic:AlwaysOn>",
+          "x": 78,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Break Relay Tick: <BNBT:number:BreakTick>",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "Break Relay Tick: <BNBT:number:BreakTick>",
+          "x": 78,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

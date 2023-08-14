@@ -1,0 +1,884 @@
+{
+  "mod_elements": [
+    {
+      "name": "RemoteRedstoneBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_block",
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks"
+    },
+    {
+      "name": "RemoteRedstoneGUI",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_gui",
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "RedstoneConnecter",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_connecter",
+      "path": "~/Redstone-addon/Items"
+    },
+    {
+      "name": "RedstoneConnecterRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_connecter_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Items/Produre"
+    },
+    {
+      "name": "RemoteRedstoneBlockRedstoneOn",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_block_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Items/Produre"
+    },
+    {
+      "name": "RemoteRedstoneBlockRedstoneOff",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_block_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Items/Produre"
+    },
+    {
+      "name": "Inputsignalblock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inputsignalblock",
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks"
+    },
+    {
+      "name": "RemoteRedstoneBlockOn",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_block_on",
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks"
+    },
+    {
+      "name": "RemoteRedstoneBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Items/Produre"
+    },
+    {
+      "name": "X10Tick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_10_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "X100",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_100",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "X1000",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_1000",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "X10000",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_10000",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "Reset",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "SetProdure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_produre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "StartProdure",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_produre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "X1Tick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_1_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "BSet",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_set",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "B1",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "B10",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_10",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "B100",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_100",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "BReset",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_reset",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "AlwaysOn",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "always_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/GUI"
+    },
+    {
+      "name": "RedstoneConnector",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_connector",
+      "path": "~/Redstone-addon/Recipes"
+    },
+    {
+      "name": "RedstoneRemoteBlock",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_remote_block",
+      "path": "~/Redstone-addon/Recipes"
+    },
+    {
+      "name": "RedstoneioSignalBlock",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneio_signal_block",
+      "path": "~/Redstone-addon/Recipes"
+    },
+    {
+      "name": "RemoteRedstoneBlockOnBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_redstone_block_on_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/RemoteBlocks/Produres"
+    },
+    {
+      "name": "YouCanAdvenceRedstoneLore",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_can_advence_redstone_lore",
+      "path": "~/Redstone-addon/Advancement"
+    },
+    {
+      "name": "RedstoneInterlockingBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_interlocking_block",
+      "path": "~/Redstone-addon/Blocks/interlocking device"
+    },
+    {
+      "name": "InterlockingBlockGUI",
+      "type": "gui",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interlocking_block_gui",
+      "path": "~/Redstone-addon/Blocks/interlocking device"
+    },
+    {
+      "name": "PageUpinterlockingBlock",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_upinterlocking_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/interlocking device/Produre"
+    },
+    {
+      "name": "PageDownInterlockingBlock",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_down_interlocking_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/interlocking device/Produre"
+    },
+    {
+      "name": "RedstoneInterlockingBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_interlocking_block_update_tick",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Redstone-addon/Items"
+    },
+    {
+      "name": "SetInterlockingBlock",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_interlocking_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/interlocking device/Produre"
+    },
+    {
+      "name": "ResetLockingBlock",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_locking_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Redstone-addon/Blocks/interlocking device/Produre"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.mechina_addon.inputsignalblock": "Redstone I/O Signal Block",
+      "block.mechina_addon.redstone_interlocking_block": "Redstone Interlocking Block",
+      "block.mechina_addon.remote_redstone_block_on": "Input signal block/on",
+      "block.mechina_addon.remote_redstone_block": "Remote Redstone Block",
+      "advancements.you_can_advence_redstone_lore.title": "You Can Advence Redstone Lore?",
+      "item.mechina_addon.redstone_connecter": "Redstone Connecter",
+      "advancements.you_can_advence_redstone_lore.descr": "Make Remote Redstone Block."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Redstone-addon",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": [
+              {
+                "name": "RemoteBlocks",
+                "children": [
+                  {
+                    "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Produres",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "interlocking device",
+                "children": [
+                  {
+                    "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Produre",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipe",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Items",
+            "children": [
+              {
+                "name": "Produre",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Advancement",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mechina_addon",
+    "modName": "Mechina add-on",
+    "version": "Snapshot1.0.01",
+    "author": "US",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mechinaaddon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
