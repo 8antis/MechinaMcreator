@@ -803,6 +803,35 @@
       "locked_code": false,
       "registry_name": "moktanwharo_gui",
       "path": "~/MoktanWharo"
+    },
+    {
+      "name": "MoktanwharoUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moktanwharo_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MoktanWharo"
     }
   ],
   "variable_elements": [],
