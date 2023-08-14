@@ -785,6 +785,33 @@
         ]
       },
       "path": "~/Redstone-addon/Blocks/interlocking device/Produre"
+    },
+    {
+      "name": "EG",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eg"
+    },
+    {
+      "name": "EGGui",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eg_gui"
+    },
+    {
+      "name": "EGUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eg_update_tick",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -793,6 +820,7 @@
     "en_us": {
       "block.mechina_addon.inputsignalblock": "Redstone I/O Signal Block",
       "block.mechina_addon.redstone_interlocking_block": "Redstone Interlocking Block",
+      "block.mechina_addon.eg": "EG",
       "block.mechina_addon.remote_redstone_block_on": "Input signal block/on",
       "block.mechina_addon.remote_redstone_block": "Remote Redstone Block",
       "advancements.you_can_advence_redstone_lore.title": "You Can Advence Redstone Lore?",

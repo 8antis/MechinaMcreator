@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechina_addon:blocks/redstone_off_remote_block",
+    "up": "mechina_addon:blocks/redstone_off_remote_block",
+    "north": "mechina_addon:blocks/redstone_off_remote_block",
+    "east": "mechina_addon:blocks/redstone_off_remote_block",
+    "south": "mechina_addon:blocks/redstone_off_remote_block",
+    "west": "mechina_addon:blocks/redstone_off_remote_block",
+    "particle": "mechina_addon:blocks/redstone_off_remote_block"
+  }
+}
