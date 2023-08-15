@@ -644,7 +644,7 @@
       "name": "InputsignalblockBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "inputsignalblock_block_destroyed_by_player",
       "metadata": {
