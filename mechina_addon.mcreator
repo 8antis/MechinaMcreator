@@ -668,6 +668,53 @@
         ]
       },
       "path": "~/Redstone-addon/Blocks/RemoteBlocks"
+    },
+    {
+      "name": "MoktanwharoGui",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moktanwharo_gui",
+      "path": "~/MoktanWharo"
+    },
+    {
+      "name": "MoktanwharoUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moktanwharo_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MoktanWharo"
+    },
+    {
+      "name": "Moktanwharo",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moktanwharo",
+      "path": "~/MoktanWharo"
     }
   ],
   "variable_elements": [],
@@ -689,22 +736,30 @@
         "name": "Redstone-addon",
         "children": [
           {
+            "name": "Recipes",
+            "children": []
+          },
+          {
             "name": "Blocks",
             "children": [
               {
                 "name": "RemoteBlocks",
                 "children": [
                   {
-                    "name": "GUI",
+                    "name": "Produres",
                     "children": []
                   },
                   {
-                    "name": "Produres",
+                    "name": "GUI",
                     "children": []
                   }
                 ]
               }
             ]
+          },
+          {
+            "name": "Advancement",
+            "children": []
           },
           {
             "name": "Items",
@@ -714,16 +769,12 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Recipes",
-            "children": []
-          },
-          {
-            "name": "Advancement",
-            "children": []
           }
         ]
+      },
+      {
+        "name": "MoktanWharo",
+        "children": []
       }
     ]
   },

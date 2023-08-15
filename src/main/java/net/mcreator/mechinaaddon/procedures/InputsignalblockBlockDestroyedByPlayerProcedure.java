@@ -1,15 +1,6 @@
 package net.mcreator.mechinaaddon.procedures;
 
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.block.Block;
-
-import net.mcreator.mechinaaddon.block.RemoteRedstoneBlockBlock;
-import net.mcreator.mechinaaddon.MechinaAddonMod;
-
-import java.util.Map;
+import net.minecraftforge.eventbus.api.Event;
 
 public class InputsignalblockBlockDestroyedByPlayerProcedure {
 
@@ -34,10 +25,12 @@ public class InputsignalblockBlockDestroyedByPlayerProcedure {
 				MechinaAddonMod.LOGGER.warn("Failed to load dependency z for procedure InputsignalblockBlockDestroyedByPlayer!");
 			return;
 		}
+
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+
 		if (RemoteRedstoneBlockBlock.block.getDefaultState().isValidPosition(world, new BlockPos(new Object() {
 			public double getValue(IWorld world, BlockPos pos, String tag) {
 				TileEntity tileEntity = world.getTileEntity(pos);
@@ -62,8 +55,10 @@ public class InputsignalblockBlockDestroyedByPlayerProcedure {
 		}.getValue(world, new BlockPos(x, y, z), "RemoteBlockLocateZ"))) == false) {
 			if (world instanceof World) {
 				Block.spawnDrops(world.getBlockState(new BlockPos(x, y, z)), (World) world, new BlockPos(x, y, z));
+
 				world.destroyBlock(new BlockPos(x, y, z), false);
 			}
 		}
 	}
+
 }
