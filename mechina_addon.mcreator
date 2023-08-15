@@ -719,30 +719,39 @@
         "name": "Redstone-addon",
         "children": [
           {
-            "name": "Recipes",
-            "children": []
-          },
-          {
             "name": "Blocks",
             "children": [
               {
                 "name": "RemoteBlocks",
                 "children": [
                   {
-                    "name": "Produres",
+                    "name": "GUI",
                     "children": []
                   },
                   {
+                    "name": "Produres",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "interlocking device",
+                "children": [
+                  {
                     "name": "GUI",
+                    "children": []
+                  },
+                  {
+                    "name": "Produre",
+                    "children": []
+                  },
+                  {
+                    "name": "Recipe",
                     "children": []
                   }
                 ]
               }
             ]
-          },
-          {
-            "name": "Advancement",
-            "children": []
           },
           {
             "name": "Items",
@@ -752,6 +761,14 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Advancement",
+            "children": []
           }
         ]
       },
